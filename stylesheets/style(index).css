@@ -1,0 +1,94 @@
+
+/*Navigation Panel*/
+.topnav {
+  display: block;
+  background: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width:auto;
+  border:1px solid white;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*Content*/
+body {
+  height: auto;
+  width:auto;
+  margin-top: 0px;
+  background-color: rgb(225,225,225);
+  background-size: cover;
+
+}
+/*Fonts and Style*/
+ul,p,li {
+font-family: "Century Gothic", sans-serif;
+}
+li{
+  font-size: 20px;
+  font-weight: bold;
+}
+p{
+  font-size: 17px;
+}
+
+#title {
+
+  margin-left: 10px;
+  text-align:center;
+
+}
+#main{
+
+}
+#img-div{
+  height: 100%;
+  background: rgba(242,242,242);
+  padding: 20px 20px 350px;
+
+
+  border: 2px solid white;
+
+  position: absolute;
+  top: 20%;
+  
+  text-align: center;
+  font-size: 18px;
+
+
+}
+#image{
+  height: 500px;
+  width:auto;
+  object-position: center;
+  border: 3px solid white;
+}
+#image_caption{
+  position:relative;
+  top:20px;
+  float:right;
+
+  font-size: 25px
+}
+
+#tribute-info{
+  position: relative;
+  top:1100px;
+  text-align:left;
+}
+h1 {
+  text-align: center;
+}
+
+
+
